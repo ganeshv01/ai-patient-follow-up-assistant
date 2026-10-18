@@ -11,3 +11,4 @@ data/processed/chroma/
 # Local backups and temporary search output
 *.bak
 bedrock_references.txt
+data/discharge_summaries/*.pdf

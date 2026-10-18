@@ -52,3 +52,4 @@ uuid_utils==0.17.1
 websockets==16.1.1
 xxhash==4.0.1
 zstandard==0.25.0
+streamlit>=1.66,<2.0

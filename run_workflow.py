@@ -136,27 +136,21 @@ def load_patient_state(patient_id: str) -> PatientState:
 patient_state = load_patient_state("P1002")
 
 
-workflow = build_workflow()
+if __name__ == "__main__":
+    patient_state = load_patient_state("P1002")
+    workflow = build_workflow()
 
-print("\n" + "=" * 60)
-print("CARELOOP AGENTIC WORKFLOW")
-print("=" * 60)
+    print("\n" + "=" * 60)
+    print("CARELOOP AGENTIC WORKFLOW")
+    print("=" * 60)
 
-print("\nInitial patient:", patient_state["patient_id"])
-print("Starting workflow...")
+    print("\nInitial patient:", patient_state["patient_id"])
+    print("Starting workflow...")
 
+    for event in workflow.stream(patient_state):
+        for node_name, state_update in event.items():
+            print_node_update(node_name, state_update)
 
-# Stream the graph so we can see every node as it completes.
-for event in workflow.stream(patient_state):
-
-    for node_name, state_update in event.items():
-
-        print_node_update(
-            node_name,
-            state_update
-        )
-
-
-print("\n" + "=" * 60)
-print("WORKFLOW COMPLETE")
-print("=" * 60)
+    print("\n" + "=" * 60)
+    print("WORKFLOW COMPLETE")
+    print("=" * 60)

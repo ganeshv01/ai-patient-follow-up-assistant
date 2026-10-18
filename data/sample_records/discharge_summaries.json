@@ -497,5 +497,3539 @@
     "follow_up_date": "2026-10-22",
     "follow_up_instructions": "Confirm the appointment and review symptom control.",
     "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1026",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Essential hypertension",
+    "clinical_notes": "Synthetic record: blood pressure management was reviewed during admission.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Blood pressure review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1027",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Community-acquired pneumonia",
+    "clinical_notes": "Synthetic record: respiratory symptoms improved before discharge.",
+    "medications": [
+      {
+        "name": "Amoxicillin",
+        "instructions": "Follow the prescribed course documented on the medication chart."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1028",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Type 2 diabetes mellitus",
+    "clinical_notes": "Synthetic record: glucose readings were reviewed and outpatient monitoring was documented.",
+    "medications": [
+      {
+        "name": "Metformin",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Fasting blood glucose"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-01",
+    "follow_up_instructions": "Review glucose records and the documented management plan.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1029",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Asthma",
+    "clinical_notes": "Synthetic record: symptoms improved and inhaler instructions were documented.",
+    "medications": [
+      {
+        "name": "Salbutamol inhaler",
+        "instructions": "Use according to the prescribed inhaler instructions."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-09-25",
+    "follow_up_instructions": "Review symptom control with the treating clinician.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1030",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Iron deficiency anaemia",
+    "clinical_notes": "Synthetic record: outpatient monitoring of anaemia was included in the discharge plan.",
+    "medications": [
+      {
+        "name": "Ferrous sulfate",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Complete blood count"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-24",
+    "follow_up_instructions": "Review the planned laboratory results with the treating team.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1031",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Heart failure",
+    "clinical_notes": "Synthetic record: the discharge plan documented outpatient review and monitoring.",
+    "medications": [
+      {
+        "name": "Furosemide",
+        "instructions": "Follow the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-22",
+    "follow_up_instructions": "Arrange the documented follow-up and laboratory review.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1032",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Chronic kidney disease",
+    "clinical_notes": "Synthetic record: renal monitoring was documented in the discharge plan.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-23",
+    "follow_up_instructions": "Confirm the timing of monitoring with the treating service.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1033",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Gastroesophageal reflux disease",
+    "clinical_notes": "Synthetic record: symptoms improved and an outpatient review plan was recorded.",
+    "medications": [
+      {
+        "name": "Omeprazole",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Symptom and medication review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-24",
+    "follow_up_instructions": "Review symptom control and medication tolerance.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1034",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Urinary tract infection",
+    "clinical_notes": "Synthetic record: urinary symptoms improved during treatment.",
+    "medications": [
+      {
+        "name": "Nitrofurantoin",
+        "instructions": "Follow the prescribed course and medication chart."
+      }
+    ],
+    "required_tests": [
+      "Clinical symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-25",
+    "follow_up_instructions": "Review symptom resolution with the treating clinician.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1035",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Hypothyroidism",
+    "clinical_notes": "Synthetic record: thyroid replacement therapy and outpatient review were documented.",
+    "medications": [
+      {
+        "name": "Levothyroxine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Thyroid function tests"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-26",
+    "follow_up_instructions": "Review the planned thyroid function results with the treating team.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1036",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Essential hypertension",
+    "clinical_notes": "Synthetic record: blood pressure management was reviewed during admission.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Blood pressure review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1037",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Community-acquired pneumonia",
+    "clinical_notes": "Synthetic record: respiratory symptoms improved before discharge.",
+    "medications": [
+      {
+        "name": "Amoxicillin",
+        "instructions": "Follow the prescribed course documented on the medication chart."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1038",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Type 2 diabetes mellitus",
+    "clinical_notes": "Synthetic record: glucose readings were reviewed and outpatient monitoring was documented.",
+    "medications": [
+      {
+        "name": "Metformin",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Fasting blood glucose"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-03",
+    "follow_up_instructions": "Review glucose records and the documented management plan.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1039",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Asthma",
+    "clinical_notes": "Synthetic record: symptoms improved and inhaler instructions were documented.",
+    "medications": [
+      {
+        "name": "Salbutamol inhaler",
+        "instructions": "Use according to the prescribed inhaler instructions."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-09-27",
+    "follow_up_instructions": "Review symptom control with the treating clinician.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1040",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Iron deficiency anaemia",
+    "clinical_notes": "Synthetic record: outpatient monitoring of anaemia was included in the discharge plan.",
+    "medications": [
+      {
+        "name": "Ferrous sulfate",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Complete blood count"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-18",
+    "follow_up_instructions": "Review the planned laboratory results with the treating team.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1041",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Heart failure",
+    "clinical_notes": "Synthetic record: the discharge plan documented outpatient review and monitoring.",
+    "medications": [
+      {
+        "name": "Furosemide",
+        "instructions": "Follow the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-01",
+    "follow_up_instructions": "Arrange the documented follow-up and laboratory review.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1042",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Chronic kidney disease",
+    "clinical_notes": "Synthetic record: renal monitoring was documented in the discharge plan.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-02",
+    "follow_up_instructions": "Confirm the timing of monitoring with the treating service.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1043",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Gastroesophageal reflux disease",
+    "clinical_notes": "Synthetic record: symptoms improved and an outpatient review plan was recorded.",
+    "medications": [
+      {
+        "name": "Omeprazole",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Symptom and medication review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-03",
+    "follow_up_instructions": "Review symptom control and medication tolerance.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1044",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Urinary tract infection",
+    "clinical_notes": "Synthetic record: urinary symptoms improved during treatment.",
+    "medications": [
+      {
+        "name": "Nitrofurantoin",
+        "instructions": "Follow the prescribed course and medication chart."
+      }
+    ],
+    "required_tests": [
+      "Clinical symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-04",
+    "follow_up_instructions": "Review symptom resolution with the treating clinician.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1045",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Hypothyroidism",
+    "clinical_notes": "Synthetic record: thyroid replacement therapy and outpatient review were documented.",
+    "medications": [
+      {
+        "name": "Levothyroxine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Thyroid function tests"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-05",
+    "follow_up_instructions": "Review the planned thyroid function results with the treating team.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1046",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Essential hypertension",
+    "clinical_notes": "Synthetic record: blood pressure management was reviewed during admission.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Blood pressure review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1047",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Community-acquired pneumonia",
+    "clinical_notes": "Synthetic record: respiratory symptoms improved before discharge.",
+    "medications": [
+      {
+        "name": "Amoxicillin",
+        "instructions": "Follow the prescribed course documented on the medication chart."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1048",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Type 2 diabetes mellitus",
+    "clinical_notes": "Synthetic record: glucose readings were reviewed and outpatient monitoring was documented.",
+    "medications": [
+      {
+        "name": "Metformin",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Fasting blood glucose"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-09-27",
+    "follow_up_instructions": "Review glucose records and the documented management plan.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1049",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Asthma",
+    "clinical_notes": "Synthetic record: symptoms improved and inhaler instructions were documented.",
+    "medications": [
+      {
+        "name": "Salbutamol inhaler",
+        "instructions": "Use according to the prescribed inhaler instructions."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-09-21",
+    "follow_up_instructions": "Review symptom control with the treating clinician.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1050",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Iron deficiency anaemia",
+    "clinical_notes": "Synthetic record: outpatient monitoring of anaemia was included in the discharge plan.",
+    "medications": [
+      {
+        "name": "Ferrous sulfate",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Complete blood count"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-20",
+    "follow_up_instructions": "Review the planned laboratory results with the treating team.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1051",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Heart failure",
+    "clinical_notes": "Synthetic record: the discharge plan documented outpatient review and monitoring.",
+    "medications": [
+      {
+        "name": "Furosemide",
+        "instructions": "Follow the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-21",
+    "follow_up_instructions": "Arrange the documented follow-up and laboratory review.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1052",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Chronic kidney disease",
+    "clinical_notes": "Synthetic record: renal monitoring was documented in the discharge plan.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-22",
+    "follow_up_instructions": "Confirm the timing of monitoring with the treating service.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1053",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Gastroesophageal reflux disease",
+    "clinical_notes": "Synthetic record: symptoms improved and an outpatient review plan was recorded.",
+    "medications": [
+      {
+        "name": "Omeprazole",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Symptom and medication review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-23",
+    "follow_up_instructions": "Review symptom control and medication tolerance.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1054",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Urinary tract infection",
+    "clinical_notes": "Synthetic record: urinary symptoms improved during treatment.",
+    "medications": [
+      {
+        "name": "Nitrofurantoin",
+        "instructions": "Follow the prescribed course and medication chart."
+      }
+    ],
+    "required_tests": [
+      "Clinical symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-24",
+    "follow_up_instructions": "Review symptom resolution with the treating clinician.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1055",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Hypothyroidism",
+    "clinical_notes": "Synthetic record: thyroid replacement therapy and outpatient review were documented.",
+    "medications": [
+      {
+        "name": "Levothyroxine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Thyroid function tests"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-25",
+    "follow_up_instructions": "Review the planned thyroid function results with the treating team.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1056",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Essential hypertension",
+    "clinical_notes": "Synthetic record: blood pressure management was reviewed during admission.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Blood pressure review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1057",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Community-acquired pneumonia",
+    "clinical_notes": "Synthetic record: respiratory symptoms improved before discharge.",
+    "medications": [
+      {
+        "name": "Amoxicillin",
+        "instructions": "Follow the prescribed course documented on the medication chart."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1058",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Type 2 diabetes mellitus",
+    "clinical_notes": "Synthetic record: glucose readings were reviewed and outpatient monitoring was documented.",
+    "medications": [
+      {
+        "name": "Metformin",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Fasting blood glucose"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-09-29",
+    "follow_up_instructions": "Review glucose records and the documented management plan.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1059",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Asthma",
+    "clinical_notes": "Synthetic record: symptoms improved and inhaler instructions were documented.",
+    "medications": [
+      {
+        "name": "Salbutamol inhaler",
+        "instructions": "Use according to the prescribed inhaler instructions."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-09-23",
+    "follow_up_instructions": "Review symptom control with the treating clinician.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1060",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Iron deficiency anaemia",
+    "clinical_notes": "Synthetic record: outpatient monitoring of anaemia was included in the discharge plan.",
+    "medications": [
+      {
+        "name": "Ferrous sulfate",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Complete blood count"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-22",
+    "follow_up_instructions": "Review the planned laboratory results with the treating team.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1061",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Heart failure",
+    "clinical_notes": "Synthetic record: the discharge plan documented outpatient review and monitoring.",
+    "medications": [
+      {
+        "name": "Furosemide",
+        "instructions": "Follow the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-31",
+    "follow_up_instructions": "Arrange the documented follow-up and laboratory review.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1062",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Chronic kidney disease",
+    "clinical_notes": "Synthetic record: renal monitoring was documented in the discharge plan.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-01",
+    "follow_up_instructions": "Confirm the timing of monitoring with the treating service.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1063",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Gastroesophageal reflux disease",
+    "clinical_notes": "Synthetic record: symptoms improved and an outpatient review plan was recorded.",
+    "medications": [
+      {
+        "name": "Omeprazole",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Symptom and medication review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-02",
+    "follow_up_instructions": "Review symptom control and medication tolerance.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1064",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Urinary tract infection",
+    "clinical_notes": "Synthetic record: urinary symptoms improved during treatment.",
+    "medications": [
+      {
+        "name": "Nitrofurantoin",
+        "instructions": "Follow the prescribed course and medication chart."
+      }
+    ],
+    "required_tests": [
+      "Clinical symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-03",
+    "follow_up_instructions": "Review symptom resolution with the treating clinician.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1065",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Hypothyroidism",
+    "clinical_notes": "Synthetic record: thyroid replacement therapy and outpatient review were documented.",
+    "medications": [
+      {
+        "name": "Levothyroxine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Thyroid function tests"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-04",
+    "follow_up_instructions": "Review the planned thyroid function results with the treating team.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1066",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Essential hypertension",
+    "clinical_notes": "Synthetic record: blood pressure management was reviewed during admission.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Blood pressure review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1067",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Community-acquired pneumonia",
+    "clinical_notes": "Synthetic record: respiratory symptoms improved before discharge.",
+    "medications": [
+      {
+        "name": "Amoxicillin",
+        "instructions": "Follow the prescribed course documented on the medication chart."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1068",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Type 2 diabetes mellitus",
+    "clinical_notes": "Synthetic record: glucose readings were reviewed and outpatient monitoring was documented.",
+    "medications": [
+      {
+        "name": "Metformin",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Fasting blood glucose"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-01",
+    "follow_up_instructions": "Review glucose records and the documented management plan.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1069",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Asthma",
+    "clinical_notes": "Synthetic record: symptoms improved and inhaler instructions were documented.",
+    "medications": [
+      {
+        "name": "Salbutamol inhaler",
+        "instructions": "Use according to the prescribed inhaler instructions."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-09-25",
+    "follow_up_instructions": "Review symptom control with the treating clinician.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1070",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Iron deficiency anaemia",
+    "clinical_notes": "Synthetic record: outpatient monitoring of anaemia was included in the discharge plan.",
+    "medications": [
+      {
+        "name": "Ferrous sulfate",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Complete blood count"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-24",
+    "follow_up_instructions": "Review the planned laboratory results with the treating team.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1071",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Heart failure",
+    "clinical_notes": "Synthetic record: the discharge plan documented outpatient review and monitoring.",
+    "medications": [
+      {
+        "name": "Furosemide",
+        "instructions": "Follow the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-20",
+    "follow_up_instructions": "Arrange the documented follow-up and laboratory review.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1072",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Chronic kidney disease",
+    "clinical_notes": "Synthetic record: renal monitoring was documented in the discharge plan.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-21",
+    "follow_up_instructions": "Confirm the timing of monitoring with the treating service.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1073",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Gastroesophageal reflux disease",
+    "clinical_notes": "Synthetic record: symptoms improved and an outpatient review plan was recorded.",
+    "medications": [
+      {
+        "name": "Omeprazole",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Symptom and medication review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-22",
+    "follow_up_instructions": "Review symptom control and medication tolerance.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1074",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Urinary tract infection",
+    "clinical_notes": "Synthetic record: urinary symptoms improved during treatment.",
+    "medications": [
+      {
+        "name": "Nitrofurantoin",
+        "instructions": "Follow the prescribed course and medication chart."
+      }
+    ],
+    "required_tests": [
+      "Clinical symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-23",
+    "follow_up_instructions": "Review symptom resolution with the treating clinician.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1075",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Hypothyroidism",
+    "clinical_notes": "Synthetic record: thyroid replacement therapy and outpatient review were documented.",
+    "medications": [
+      {
+        "name": "Levothyroxine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Thyroid function tests"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-24",
+    "follow_up_instructions": "Review the planned thyroid function results with the treating team.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1076",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Essential hypertension",
+    "clinical_notes": "Synthetic record: blood pressure management was reviewed during admission.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Blood pressure review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1077",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Community-acquired pneumonia",
+    "clinical_notes": "Synthetic record: respiratory symptoms improved before discharge.",
+    "medications": [
+      {
+        "name": "Amoxicillin",
+        "instructions": "Follow the prescribed course documented on the medication chart."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1078",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Type 2 diabetes mellitus",
+    "clinical_notes": "Synthetic record: glucose readings were reviewed and outpatient monitoring was documented.",
+    "medications": [
+      {
+        "name": "Metformin",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Fasting blood glucose"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-03",
+    "follow_up_instructions": "Review glucose records and the documented management plan.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1079",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Asthma",
+    "clinical_notes": "Synthetic record: symptoms improved and inhaler instructions were documented.",
+    "medications": [
+      {
+        "name": "Salbutamol inhaler",
+        "instructions": "Use according to the prescribed inhaler instructions."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-09-27",
+    "follow_up_instructions": "Review symptom control with the treating clinician.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1080",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Iron deficiency anaemia",
+    "clinical_notes": "Synthetic record: outpatient monitoring of anaemia was included in the discharge plan.",
+    "medications": [
+      {
+        "name": "Ferrous sulfate",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Complete blood count"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-18",
+    "follow_up_instructions": "Review the planned laboratory results with the treating team.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1081",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Heart failure",
+    "clinical_notes": "Synthetic record: the discharge plan documented outpatient review and monitoring.",
+    "medications": [
+      {
+        "name": "Furosemide",
+        "instructions": "Follow the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-30",
+    "follow_up_instructions": "Arrange the documented follow-up and laboratory review.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1082",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Chronic kidney disease",
+    "clinical_notes": "Synthetic record: renal monitoring was documented in the discharge plan.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-31",
+    "follow_up_instructions": "Confirm the timing of monitoring with the treating service.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1083",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Gastroesophageal reflux disease",
+    "clinical_notes": "Synthetic record: symptoms improved and an outpatient review plan was recorded.",
+    "medications": [
+      {
+        "name": "Omeprazole",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Symptom and medication review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-01",
+    "follow_up_instructions": "Review symptom control and medication tolerance.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1084",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Urinary tract infection",
+    "clinical_notes": "Synthetic record: urinary symptoms improved during treatment.",
+    "medications": [
+      {
+        "name": "Nitrofurantoin",
+        "instructions": "Follow the prescribed course and medication chart."
+      }
+    ],
+    "required_tests": [
+      "Clinical symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-02",
+    "follow_up_instructions": "Review symptom resolution with the treating clinician.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1085",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Hypothyroidism",
+    "clinical_notes": "Synthetic record: thyroid replacement therapy and outpatient review were documented.",
+    "medications": [
+      {
+        "name": "Levothyroxine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Thyroid function tests"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-03",
+    "follow_up_instructions": "Review the planned thyroid function results with the treating team.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1086",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Essential hypertension",
+    "clinical_notes": "Synthetic record: blood pressure management was reviewed during admission.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Blood pressure review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1087",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Community-acquired pneumonia",
+    "clinical_notes": "Synthetic record: respiratory symptoms improved before discharge.",
+    "medications": [
+      {
+        "name": "Amoxicillin",
+        "instructions": "Follow the prescribed course documented on the medication chart."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1088",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Type 2 diabetes mellitus",
+    "clinical_notes": "Synthetic record: glucose readings were reviewed and outpatient monitoring was documented.",
+    "medications": [
+      {
+        "name": "Metformin",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Fasting blood glucose"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-09-27",
+    "follow_up_instructions": "Review glucose records and the documented management plan.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1089",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Asthma",
+    "clinical_notes": "Synthetic record: symptoms improved and inhaler instructions were documented.",
+    "medications": [
+      {
+        "name": "Salbutamol inhaler",
+        "instructions": "Use according to the prescribed inhaler instructions."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-09-21",
+    "follow_up_instructions": "Review symptom control with the treating clinician.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1090",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Iron deficiency anaemia",
+    "clinical_notes": "Synthetic record: outpatient monitoring of anaemia was included in the discharge plan.",
+    "medications": [
+      {
+        "name": "Ferrous sulfate",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Complete blood count"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-20",
+    "follow_up_instructions": "Review the planned laboratory results with the treating team.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1091",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Heart failure",
+    "clinical_notes": "Synthetic record: the discharge plan documented outpatient review and monitoring.",
+    "medications": [
+      {
+        "name": "Furosemide",
+        "instructions": "Follow the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-09",
+    "follow_up_instructions": "Arrange the documented follow-up and laboratory review.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1092",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Chronic kidney disease",
+    "clinical_notes": "Synthetic record: renal monitoring was documented in the discharge plan.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-20",
+    "follow_up_instructions": "Confirm the timing of monitoring with the treating service.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1093",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Gastroesophageal reflux disease",
+    "clinical_notes": "Synthetic record: symptoms improved and an outpatient review plan was recorded.",
+    "medications": [
+      {
+        "name": "Omeprazole",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Symptom and medication review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-21",
+    "follow_up_instructions": "Review symptom control and medication tolerance.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1094",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Urinary tract infection",
+    "clinical_notes": "Synthetic record: urinary symptoms improved during treatment.",
+    "medications": [
+      {
+        "name": "Nitrofurantoin",
+        "instructions": "Follow the prescribed course and medication chart."
+      }
+    ],
+    "required_tests": [
+      "Clinical symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-22",
+    "follow_up_instructions": "Review symptom resolution with the treating clinician.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1095",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Hypothyroidism",
+    "clinical_notes": "Synthetic record: thyroid replacement therapy and outpatient review were documented.",
+    "medications": [
+      {
+        "name": "Levothyroxine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Thyroid function tests"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-23",
+    "follow_up_instructions": "Review the planned thyroid function results with the treating team.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1096",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Essential hypertension",
+    "clinical_notes": "Synthetic record: blood pressure management was reviewed during admission.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Blood pressure review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1097",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Community-acquired pneumonia",
+    "clinical_notes": "Synthetic record: respiratory symptoms improved before discharge.",
+    "medications": [
+      {
+        "name": "Amoxicillin",
+        "instructions": "Follow the prescribed course documented on the medication chart."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1098",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Type 2 diabetes mellitus",
+    "clinical_notes": "Synthetic record: glucose readings were reviewed and outpatient monitoring was documented.",
+    "medications": [
+      {
+        "name": "Metformin",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Fasting blood glucose"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-09-29",
+    "follow_up_instructions": "Review glucose records and the documented management plan.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1099",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Asthma",
+    "clinical_notes": "Synthetic record: symptoms improved and inhaler instructions were documented.",
+    "medications": [
+      {
+        "name": "Salbutamol inhaler",
+        "instructions": "Use according to the prescribed inhaler instructions."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-09-23",
+    "follow_up_instructions": "Review symptom control with the treating clinician.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1100",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Iron deficiency anaemia",
+    "clinical_notes": "Synthetic record: outpatient monitoring of anaemia was included in the discharge plan.",
+    "medications": [
+      {
+        "name": "Ferrous sulfate",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Complete blood count"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-22",
+    "follow_up_instructions": "Review the planned laboratory results with the treating team.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1101",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Heart failure",
+    "clinical_notes": "Synthetic record: the discharge plan documented outpatient review and monitoring.",
+    "medications": [
+      {
+        "name": "Furosemide",
+        "instructions": "Follow the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-29",
+    "follow_up_instructions": "Arrange the documented follow-up and laboratory review.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1102",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Chronic kidney disease",
+    "clinical_notes": "Synthetic record: renal monitoring was documented in the discharge plan.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-30",
+    "follow_up_instructions": "Confirm the timing of monitoring with the treating service.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1103",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Gastroesophageal reflux disease",
+    "clinical_notes": "Synthetic record: symptoms improved and an outpatient review plan was recorded.",
+    "medications": [
+      {
+        "name": "Omeprazole",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Symptom and medication review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-31",
+    "follow_up_instructions": "Review symptom control and medication tolerance.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1104",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Urinary tract infection",
+    "clinical_notes": "Synthetic record: urinary symptoms improved during treatment.",
+    "medications": [
+      {
+        "name": "Nitrofurantoin",
+        "instructions": "Follow the prescribed course and medication chart."
+      }
+    ],
+    "required_tests": [
+      "Clinical symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-01",
+    "follow_up_instructions": "Review symptom resolution with the treating clinician.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1105",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Hypothyroidism",
+    "clinical_notes": "Synthetic record: thyroid replacement therapy and outpatient review were documented.",
+    "medications": [
+      {
+        "name": "Levothyroxine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Thyroid function tests"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-02",
+    "follow_up_instructions": "Review the planned thyroid function results with the treating team.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1106",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Essential hypertension",
+    "clinical_notes": "Synthetic record: blood pressure management was reviewed during admission.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Blood pressure review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1107",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Community-acquired pneumonia",
+    "clinical_notes": "Synthetic record: respiratory symptoms improved before discharge.",
+    "medications": [
+      {
+        "name": "Amoxicillin",
+        "instructions": "Follow the prescribed course documented on the medication chart."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1108",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Type 2 diabetes mellitus",
+    "clinical_notes": "Synthetic record: glucose readings were reviewed and outpatient monitoring was documented.",
+    "medications": [
+      {
+        "name": "Metformin",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Fasting blood glucose"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-01",
+    "follow_up_instructions": "Review glucose records and the documented management plan.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1109",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Asthma",
+    "clinical_notes": "Synthetic record: symptoms improved and inhaler instructions were documented.",
+    "medications": [
+      {
+        "name": "Salbutamol inhaler",
+        "instructions": "Use according to the prescribed inhaler instructions."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-09-25",
+    "follow_up_instructions": "Review symptom control with the treating clinician.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1110",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Iron deficiency anaemia",
+    "clinical_notes": "Synthetic record: outpatient monitoring of anaemia was included in the discharge plan.",
+    "medications": [
+      {
+        "name": "Ferrous sulfate",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Complete blood count"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-24",
+    "follow_up_instructions": "Review the planned laboratory results with the treating team.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1111",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Heart failure",
+    "clinical_notes": "Synthetic record: the discharge plan documented outpatient review and monitoring.",
+    "medications": [
+      {
+        "name": "Furosemide",
+        "instructions": "Follow the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-08",
+    "follow_up_instructions": "Arrange the documented follow-up and laboratory review.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1112",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Chronic kidney disease",
+    "clinical_notes": "Synthetic record: renal monitoring was documented in the discharge plan.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-09",
+    "follow_up_instructions": "Confirm the timing of monitoring with the treating service.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1113",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Gastroesophageal reflux disease",
+    "clinical_notes": "Synthetic record: symptoms improved and an outpatient review plan was recorded.",
+    "medications": [
+      {
+        "name": "Omeprazole",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Symptom and medication review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-20",
+    "follow_up_instructions": "Review symptom control and medication tolerance.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1114",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Urinary tract infection",
+    "clinical_notes": "Synthetic record: urinary symptoms improved during treatment.",
+    "medications": [
+      {
+        "name": "Nitrofurantoin",
+        "instructions": "Follow the prescribed course and medication chart."
+      }
+    ],
+    "required_tests": [
+      "Clinical symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-21",
+    "follow_up_instructions": "Review symptom resolution with the treating clinician.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1115",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Hypothyroidism",
+    "clinical_notes": "Synthetic record: thyroid replacement therapy and outpatient review were documented.",
+    "medications": [
+      {
+        "name": "Levothyroxine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Thyroid function tests"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-22",
+    "follow_up_instructions": "Review the planned thyroid function results with the treating team.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1116",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Essential hypertension",
+    "clinical_notes": "Synthetic record: blood pressure management was reviewed during admission.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Blood pressure review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1117",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Community-acquired pneumonia",
+    "clinical_notes": "Synthetic record: respiratory symptoms improved before discharge.",
+    "medications": [
+      {
+        "name": "Amoxicillin",
+        "instructions": "Follow the prescribed course documented on the medication chart."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1118",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Type 2 diabetes mellitus",
+    "clinical_notes": "Synthetic record: glucose readings were reviewed and outpatient monitoring was documented.",
+    "medications": [
+      {
+        "name": "Metformin",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Fasting blood glucose"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-03",
+    "follow_up_instructions": "Review glucose records and the documented management plan.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1119",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Asthma",
+    "clinical_notes": "Synthetic record: symptoms improved and inhaler instructions were documented.",
+    "medications": [
+      {
+        "name": "Salbutamol inhaler",
+        "instructions": "Use according to the prescribed inhaler instructions."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-09-27",
+    "follow_up_instructions": "Review symptom control with the treating clinician.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1120",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Iron deficiency anaemia",
+    "clinical_notes": "Synthetic record: outpatient monitoring of anaemia was included in the discharge plan.",
+    "medications": [
+      {
+        "name": "Ferrous sulfate",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Complete blood count"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-18",
+    "follow_up_instructions": "Review the planned laboratory results with the treating team.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1121",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Heart failure",
+    "clinical_notes": "Synthetic record: the discharge plan documented outpatient review and monitoring.",
+    "medications": [
+      {
+        "name": "Furosemide",
+        "instructions": "Follow the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-28",
+    "follow_up_instructions": "Arrange the documented follow-up and laboratory review.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1122",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Chronic kidney disease",
+    "clinical_notes": "Synthetic record: renal monitoring was documented in the discharge plan.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-29",
+    "follow_up_instructions": "Confirm the timing of monitoring with the treating service.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1123",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Gastroesophageal reflux disease",
+    "clinical_notes": "Synthetic record: symptoms improved and an outpatient review plan was recorded.",
+    "medications": [
+      {
+        "name": "Omeprazole",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Symptom and medication review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-30",
+    "follow_up_instructions": "Review symptom control and medication tolerance.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1124",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Urinary tract infection",
+    "clinical_notes": "Synthetic record: urinary symptoms improved during treatment.",
+    "medications": [
+      {
+        "name": "Nitrofurantoin",
+        "instructions": "Follow the prescribed course and medication chart."
+      }
+    ],
+    "required_tests": [
+      "Clinical symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-31",
+    "follow_up_instructions": "Review symptom resolution with the treating clinician.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1125",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Hypothyroidism",
+    "clinical_notes": "Synthetic record: thyroid replacement therapy and outpatient review were documented.",
+    "medications": [
+      {
+        "name": "Levothyroxine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Thyroid function tests"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-01",
+    "follow_up_instructions": "Review the planned thyroid function results with the treating team.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1126",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Essential hypertension",
+    "clinical_notes": "Synthetic record: blood pressure management was reviewed during admission.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Blood pressure review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1127",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Community-acquired pneumonia",
+    "clinical_notes": "Synthetic record: respiratory symptoms improved before discharge.",
+    "medications": [
+      {
+        "name": "Amoxicillin",
+        "instructions": "Follow the prescribed course documented on the medication chart."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1128",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Type 2 diabetes mellitus",
+    "clinical_notes": "Synthetic record: glucose readings were reviewed and outpatient monitoring was documented.",
+    "medications": [
+      {
+        "name": "Metformin",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Fasting blood glucose"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-09-27",
+    "follow_up_instructions": "Review glucose records and the documented management plan.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1129",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Asthma",
+    "clinical_notes": "Synthetic record: symptoms improved and inhaler instructions were documented.",
+    "medications": [
+      {
+        "name": "Salbutamol inhaler",
+        "instructions": "Use according to the prescribed inhaler instructions."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-09-21",
+    "follow_up_instructions": "Review symptom control with the treating clinician.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1130",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Iron deficiency anaemia",
+    "clinical_notes": "Synthetic record: outpatient monitoring of anaemia was included in the discharge plan.",
+    "medications": [
+      {
+        "name": "Ferrous sulfate",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Complete blood count"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-20",
+    "follow_up_instructions": "Review the planned laboratory results with the treating team.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1131",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Heart failure",
+    "clinical_notes": "Synthetic record: the discharge plan documented outpatient review and monitoring.",
+    "medications": [
+      {
+        "name": "Furosemide",
+        "instructions": "Follow the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-07",
+    "follow_up_instructions": "Arrange the documented follow-up and laboratory review.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1132",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Chronic kidney disease",
+    "clinical_notes": "Synthetic record: renal monitoring was documented in the discharge plan.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-08",
+    "follow_up_instructions": "Confirm the timing of monitoring with the treating service.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1133",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Gastroesophageal reflux disease",
+    "clinical_notes": "Synthetic record: symptoms improved and an outpatient review plan was recorded.",
+    "medications": [
+      {
+        "name": "Omeprazole",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Symptom and medication review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-09",
+    "follow_up_instructions": "Review symptom control and medication tolerance.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1134",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Urinary tract infection",
+    "clinical_notes": "Synthetic record: urinary symptoms improved during treatment.",
+    "medications": [
+      {
+        "name": "Nitrofurantoin",
+        "instructions": "Follow the prescribed course and medication chart."
+      }
+    ],
+    "required_tests": [
+      "Clinical symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-20",
+    "follow_up_instructions": "Review symptom resolution with the treating clinician.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1135",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Hypothyroidism",
+    "clinical_notes": "Synthetic record: thyroid replacement therapy and outpatient review were documented.",
+    "medications": [
+      {
+        "name": "Levothyroxine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Thyroid function tests"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-21",
+    "follow_up_instructions": "Review the planned thyroid function results with the treating team.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1136",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Essential hypertension",
+    "clinical_notes": "Synthetic record: blood pressure management was reviewed during admission.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Blood pressure review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1137",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Community-acquired pneumonia",
+    "clinical_notes": "Synthetic record: respiratory symptoms improved before discharge.",
+    "medications": [
+      {
+        "name": "Amoxicillin",
+        "instructions": "Follow the prescribed course documented on the medication chart."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1138",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Type 2 diabetes mellitus",
+    "clinical_notes": "Synthetic record: glucose readings were reviewed and outpatient monitoring was documented.",
+    "medications": [
+      {
+        "name": "Metformin",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Fasting blood glucose"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-09-29",
+    "follow_up_instructions": "Review glucose records and the documented management plan.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1139",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Asthma",
+    "clinical_notes": "Synthetic record: symptoms improved and inhaler instructions were documented.",
+    "medications": [
+      {
+        "name": "Salbutamol inhaler",
+        "instructions": "Use according to the prescribed inhaler instructions."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-09-23",
+    "follow_up_instructions": "Review symptom control with the treating clinician.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1140",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Iron deficiency anaemia",
+    "clinical_notes": "Synthetic record: outpatient monitoring of anaemia was included in the discharge plan.",
+    "medications": [
+      {
+        "name": "Ferrous sulfate",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Complete blood count"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-22",
+    "follow_up_instructions": "Review the planned laboratory results with the treating team.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1141",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Heart failure",
+    "clinical_notes": "Synthetic record: the discharge plan documented outpatient review and monitoring.",
+    "medications": [
+      {
+        "name": "Furosemide",
+        "instructions": "Follow the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-27",
+    "follow_up_instructions": "Arrange the documented follow-up and laboratory review.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1142",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Chronic kidney disease",
+    "clinical_notes": "Synthetic record: renal monitoring was documented in the discharge plan.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-28",
+    "follow_up_instructions": "Confirm the timing of monitoring with the treating service.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1143",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Gastroesophageal reflux disease",
+    "clinical_notes": "Synthetic record: symptoms improved and an outpatient review plan was recorded.",
+    "medications": [
+      {
+        "name": "Omeprazole",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Symptom and medication review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-29",
+    "follow_up_instructions": "Review symptom control and medication tolerance.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1144",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Urinary tract infection",
+    "clinical_notes": "Synthetic record: urinary symptoms improved during treatment.",
+    "medications": [
+      {
+        "name": "Nitrofurantoin",
+        "instructions": "Follow the prescribed course and medication chart."
+      }
+    ],
+    "required_tests": [
+      "Clinical symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-30",
+    "follow_up_instructions": "Review symptom resolution with the treating clinician.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1145",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Hypothyroidism",
+    "clinical_notes": "Synthetic record: thyroid replacement therapy and outpatient review were documented.",
+    "medications": [
+      {
+        "name": "Levothyroxine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Thyroid function tests"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-31",
+    "follow_up_instructions": "Review the planned thyroid function results with the treating team.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1146",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Essential hypertension",
+    "clinical_notes": "Synthetic record: blood pressure management was reviewed during admission.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Blood pressure review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1147",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Community-acquired pneumonia",
+    "clinical_notes": "Synthetic record: respiratory symptoms improved before discharge.",
+    "medications": [
+      {
+        "name": "Amoxicillin",
+        "instructions": "Follow the prescribed course documented on the medication chart."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1148",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Type 2 diabetes mellitus",
+    "clinical_notes": "Synthetic record: glucose readings were reviewed and outpatient monitoring was documented.",
+    "medications": [
+      {
+        "name": "Metformin",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Fasting blood glucose"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-01",
+    "follow_up_instructions": "Review glucose records and the documented management plan.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1149",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Asthma",
+    "clinical_notes": "Synthetic record: symptoms improved and inhaler instructions were documented.",
+    "medications": [
+      {
+        "name": "Salbutamol inhaler",
+        "instructions": "Use according to the prescribed inhaler instructions."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-09-25",
+    "follow_up_instructions": "Review symptom control with the treating clinician.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1150",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Iron deficiency anaemia",
+    "clinical_notes": "Synthetic record: outpatient monitoring of anaemia was included in the discharge plan.",
+    "medications": [
+      {
+        "name": "Ferrous sulfate",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Complete blood count"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-24",
+    "follow_up_instructions": "Review the planned laboratory results with the treating team.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1151",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Heart failure",
+    "clinical_notes": "Synthetic record: the discharge plan documented outpatient review and monitoring.",
+    "medications": [
+      {
+        "name": "Furosemide",
+        "instructions": "Follow the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-06",
+    "follow_up_instructions": "Arrange the documented follow-up and laboratory review.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1152",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Chronic kidney disease",
+    "clinical_notes": "Synthetic record: renal monitoring was documented in the discharge plan.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-07",
+    "follow_up_instructions": "Confirm the timing of monitoring with the treating service.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1153",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Gastroesophageal reflux disease",
+    "clinical_notes": "Synthetic record: symptoms improved and an outpatient review plan was recorded.",
+    "medications": [
+      {
+        "name": "Omeprazole",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Symptom and medication review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-08",
+    "follow_up_instructions": "Review symptom control and medication tolerance.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1154",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Urinary tract infection",
+    "clinical_notes": "Synthetic record: urinary symptoms improved during treatment.",
+    "medications": [
+      {
+        "name": "Nitrofurantoin",
+        "instructions": "Follow the prescribed course and medication chart."
+      }
+    ],
+    "required_tests": [
+      "Clinical symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-09",
+    "follow_up_instructions": "Review symptom resolution with the treating clinician.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1155",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Hypothyroidism",
+    "clinical_notes": "Synthetic record: thyroid replacement therapy and outpatient review were documented.",
+    "medications": [
+      {
+        "name": "Levothyroxine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Thyroid function tests"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-20",
+    "follow_up_instructions": "Review the planned thyroid function results with the treating team.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1156",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Essential hypertension",
+    "clinical_notes": "Synthetic record: blood pressure management was reviewed during admission.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Blood pressure review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1157",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Community-acquired pneumonia",
+    "clinical_notes": "Synthetic record: respiratory symptoms improved before discharge.",
+    "medications": [
+      {
+        "name": "Amoxicillin",
+        "instructions": "Follow the prescribed course documented on the medication chart."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1158",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Type 2 diabetes mellitus",
+    "clinical_notes": "Synthetic record: glucose readings were reviewed and outpatient monitoring was documented.",
+    "medications": [
+      {
+        "name": "Metformin",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Fasting blood glucose"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-03",
+    "follow_up_instructions": "Review glucose records and the documented management plan.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1159",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Asthma",
+    "clinical_notes": "Synthetic record: symptoms improved and inhaler instructions were documented.",
+    "medications": [
+      {
+        "name": "Salbutamol inhaler",
+        "instructions": "Use according to the prescribed inhaler instructions."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-09-27",
+    "follow_up_instructions": "Review symptom control with the treating clinician.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1160",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Iron deficiency anaemia",
+    "clinical_notes": "Synthetic record: outpatient monitoring of anaemia was included in the discharge plan.",
+    "medications": [
+      {
+        "name": "Ferrous sulfate",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Complete blood count"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-18",
+    "follow_up_instructions": "Review the planned laboratory results with the treating team.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1161",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Heart failure",
+    "clinical_notes": "Synthetic record: the discharge plan documented outpatient review and monitoring.",
+    "medications": [
+      {
+        "name": "Furosemide",
+        "instructions": "Follow the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-26",
+    "follow_up_instructions": "Arrange the documented follow-up and laboratory review.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1162",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Chronic kidney disease",
+    "clinical_notes": "Synthetic record: renal monitoring was documented in the discharge plan.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-27",
+    "follow_up_instructions": "Confirm the timing of monitoring with the treating service.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1163",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Gastroesophageal reflux disease",
+    "clinical_notes": "Synthetic record: symptoms improved and an outpatient review plan was recorded.",
+    "medications": [
+      {
+        "name": "Omeprazole",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Symptom and medication review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-28",
+    "follow_up_instructions": "Review symptom control and medication tolerance.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1164",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Urinary tract infection",
+    "clinical_notes": "Synthetic record: urinary symptoms improved during treatment.",
+    "medications": [
+      {
+        "name": "Nitrofurantoin",
+        "instructions": "Follow the prescribed course and medication chart."
+      }
+    ],
+    "required_tests": [
+      "Clinical symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-29",
+    "follow_up_instructions": "Review symptom resolution with the treating clinician.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1165",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Hypothyroidism",
+    "clinical_notes": "Synthetic record: thyroid replacement therapy and outpatient review were documented.",
+    "medications": [
+      {
+        "name": "Levothyroxine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Thyroid function tests"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-30",
+    "follow_up_instructions": "Review the planned thyroid function results with the treating team.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1166",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Essential hypertension",
+    "clinical_notes": "Synthetic record: blood pressure management was reviewed during admission.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Blood pressure review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1167",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Community-acquired pneumonia",
+    "clinical_notes": "Synthetic record: respiratory symptoms improved before discharge.",
+    "medications": [
+      {
+        "name": "Amoxicillin",
+        "instructions": "Follow the prescribed course documented on the medication chart."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1168",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Type 2 diabetes mellitus",
+    "clinical_notes": "Synthetic record: glucose readings were reviewed and outpatient monitoring was documented.",
+    "medications": [
+      {
+        "name": "Metformin",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Fasting blood glucose"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-09-27",
+    "follow_up_instructions": "Review glucose records and the documented management plan.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1169",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Asthma",
+    "clinical_notes": "Synthetic record: symptoms improved and inhaler instructions were documented.",
+    "medications": [
+      {
+        "name": "Salbutamol inhaler",
+        "instructions": "Use according to the prescribed inhaler instructions."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-09-21",
+    "follow_up_instructions": "Review symptom control with the treating clinician.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1170",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Iron deficiency anaemia",
+    "clinical_notes": "Synthetic record: outpatient monitoring of anaemia was included in the discharge plan.",
+    "medications": [
+      {
+        "name": "Ferrous sulfate",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Complete blood count"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-20",
+    "follow_up_instructions": "Review the planned laboratory results with the treating team.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1171",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Heart failure",
+    "clinical_notes": "Synthetic record: the discharge plan documented outpatient review and monitoring.",
+    "medications": [
+      {
+        "name": "Furosemide",
+        "instructions": "Follow the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-05",
+    "follow_up_instructions": "Arrange the documented follow-up and laboratory review.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1172",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Chronic kidney disease",
+    "clinical_notes": "Synthetic record: renal monitoring was documented in the discharge plan.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-06",
+    "follow_up_instructions": "Confirm the timing of monitoring with the treating service.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1173",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Gastroesophageal reflux disease",
+    "clinical_notes": "Synthetic record: symptoms improved and an outpatient review plan was recorded.",
+    "medications": [
+      {
+        "name": "Omeprazole",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Symptom and medication review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-07",
+    "follow_up_instructions": "Review symptom control and medication tolerance.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1174",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Urinary tract infection",
+    "clinical_notes": "Synthetic record: urinary symptoms improved during treatment.",
+    "medications": [
+      {
+        "name": "Nitrofurantoin",
+        "instructions": "Follow the prescribed course and medication chart."
+      }
+    ],
+    "required_tests": [
+      "Clinical symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-08",
+    "follow_up_instructions": "Review symptom resolution with the treating clinician.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1175",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Hypothyroidism",
+    "clinical_notes": "Synthetic record: thyroid replacement therapy and outpatient review were documented.",
+    "medications": [
+      {
+        "name": "Levothyroxine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Thyroid function tests"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-09",
+    "follow_up_instructions": "Review the planned thyroid function results with the treating team.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1176",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Essential hypertension",
+    "clinical_notes": "Synthetic record: blood pressure management was reviewed during admission.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Blood pressure review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1177",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Community-acquired pneumonia",
+    "clinical_notes": "Synthetic record: respiratory symptoms improved before discharge.",
+    "medications": [
+      {
+        "name": "Amoxicillin",
+        "instructions": "Follow the prescribed course documented on the medication chart."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1178",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Type 2 diabetes mellitus",
+    "clinical_notes": "Synthetic record: glucose readings were reviewed and outpatient monitoring was documented.",
+    "medications": [
+      {
+        "name": "Metformin",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Fasting blood glucose"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-09-29",
+    "follow_up_instructions": "Review glucose records and the documented management plan.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1179",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Asthma",
+    "clinical_notes": "Synthetic record: symptoms improved and inhaler instructions were documented.",
+    "medications": [
+      {
+        "name": "Salbutamol inhaler",
+        "instructions": "Use according to the prescribed inhaler instructions."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-09-23",
+    "follow_up_instructions": "Review symptom control with the treating clinician.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1180",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Iron deficiency anaemia",
+    "clinical_notes": "Synthetic record: outpatient monitoring of anaemia was included in the discharge plan.",
+    "medications": [
+      {
+        "name": "Ferrous sulfate",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Complete blood count"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-22",
+    "follow_up_instructions": "Review the planned laboratory results with the treating team.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1181",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Heart failure",
+    "clinical_notes": "Synthetic record: the discharge plan documented outpatient review and monitoring.",
+    "medications": [
+      {
+        "name": "Furosemide",
+        "instructions": "Follow the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-25",
+    "follow_up_instructions": "Arrange the documented follow-up and laboratory review.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1182",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Chronic kidney disease",
+    "clinical_notes": "Synthetic record: renal monitoring was documented in the discharge plan.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-26",
+    "follow_up_instructions": "Confirm the timing of monitoring with the treating service.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1183",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Gastroesophageal reflux disease",
+    "clinical_notes": "Synthetic record: symptoms improved and an outpatient review plan was recorded.",
+    "medications": [
+      {
+        "name": "Omeprazole",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Symptom and medication review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-27",
+    "follow_up_instructions": "Review symptom control and medication tolerance.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1184",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Urinary tract infection",
+    "clinical_notes": "Synthetic record: urinary symptoms improved during treatment.",
+    "medications": [
+      {
+        "name": "Nitrofurantoin",
+        "instructions": "Follow the prescribed course and medication chart."
+      }
+    ],
+    "required_tests": [
+      "Clinical symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-28",
+    "follow_up_instructions": "Review symptom resolution with the treating clinician.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1185",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Hypothyroidism",
+    "clinical_notes": "Synthetic record: thyroid replacement therapy and outpatient review were documented.",
+    "medications": [
+      {
+        "name": "Levothyroxine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Thyroid function tests"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-29",
+    "follow_up_instructions": "Review the planned thyroid function results with the treating team.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1186",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Essential hypertension",
+    "clinical_notes": "Synthetic record: blood pressure management was reviewed during admission.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Blood pressure review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1187",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Community-acquired pneumonia",
+    "clinical_notes": "Synthetic record: respiratory symptoms improved before discharge.",
+    "medications": [
+      {
+        "name": "Amoxicillin",
+        "instructions": "Follow the prescribed course documented on the medication chart."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1188",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Type 2 diabetes mellitus",
+    "clinical_notes": "Synthetic record: glucose readings were reviewed and outpatient monitoring was documented.",
+    "medications": [
+      {
+        "name": "Metformin",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Fasting blood glucose"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-01",
+    "follow_up_instructions": "Review glucose records and the documented management plan.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1189",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Asthma",
+    "clinical_notes": "Synthetic record: symptoms improved and inhaler instructions were documented.",
+    "medications": [
+      {
+        "name": "Salbutamol inhaler",
+        "instructions": "Use according to the prescribed inhaler instructions."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-09-25",
+    "follow_up_instructions": "Review symptom control with the treating clinician.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1190",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Iron deficiency anaemia",
+    "clinical_notes": "Synthetic record: outpatient monitoring of anaemia was included in the discharge plan.",
+    "medications": [
+      {
+        "name": "Ferrous sulfate",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Complete blood count"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-24",
+    "follow_up_instructions": "Review the planned laboratory results with the treating team.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1191",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Heart failure",
+    "clinical_notes": "Synthetic record: the discharge plan documented outpatient review and monitoring.",
+    "medications": [
+      {
+        "name": "Furosemide",
+        "instructions": "Follow the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-04",
+    "follow_up_instructions": "Arrange the documented follow-up and laboratory review.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1192",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Chronic kidney disease",
+    "clinical_notes": "Synthetic record: renal monitoring was documented in the discharge plan.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-05",
+    "follow_up_instructions": "Confirm the timing of monitoring with the treating service.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1193",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Gastroesophageal reflux disease",
+    "clinical_notes": "Synthetic record: symptoms improved and an outpatient review plan was recorded.",
+    "medications": [
+      {
+        "name": "Omeprazole",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Symptom and medication review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-06",
+    "follow_up_instructions": "Review symptom control and medication tolerance.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1194",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Urinary tract infection",
+    "clinical_notes": "Synthetic record: urinary symptoms improved during treatment.",
+    "medications": [
+      {
+        "name": "Nitrofurantoin",
+        "instructions": "Follow the prescribed course and medication chart."
+      }
+    ],
+    "required_tests": [
+      "Clinical symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-07",
+    "follow_up_instructions": "Review symptom resolution with the treating clinician.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1195",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Hypothyroidism",
+    "clinical_notes": "Synthetic record: thyroid replacement therapy and outpatient review were documented.",
+    "medications": [
+      {
+        "name": "Levothyroxine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Thyroid function tests"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-08",
+    "follow_up_instructions": "Review the planned thyroid function results with the treating team.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1196",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Essential hypertension",
+    "clinical_notes": "Synthetic record: blood pressure management was reviewed during admission.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Blood pressure review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "low"
+  },
+  {
+    "patient_id": "P1197",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Community-acquired pneumonia",
+    "clinical_notes": "Synthetic record: respiratory symptoms improved before discharge.",
+    "medications": [
+      {
+        "name": "Amoxicillin",
+        "instructions": "Follow the prescribed course documented on the medication chart."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "medium"
+  },
+  {
+    "patient_id": "P1198",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-24",
+    "diagnosis": "Type 2 diabetes mellitus",
+    "clinical_notes": "Synthetic record: glucose readings were reviewed and outpatient monitoring was documented.",
+    "medications": [
+      {
+        "name": "Metformin",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Fasting blood glucose"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-03",
+    "follow_up_instructions": "Review glucose records and the documented management plan.",
+    "case_severity": "high"
+  },
+  {
+    "patient_id": "P1199",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-17",
+    "diagnosis": "Asthma",
+    "clinical_notes": "Synthetic record: symptoms improved and inhaler instructions were documented.",
+    "medications": [
+      {
+        "name": "Salbutamol inhaler",
+        "instructions": "Use according to the prescribed inhaler instructions."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-09-27",
+    "follow_up_instructions": "Review symptom control with the treating clinician.",
+    "case_severity": "unknown"
+  },
+  {
+    "patient_id": "P1200",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Iron deficiency anaemia",
+    "clinical_notes": "Synthetic record: outpatient monitoring of anaemia was included in the discharge plan.",
+    "medications": [
+      {
+        "name": "Ferrous sulfate",
+        "instructions": "Follow the instructions on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Complete blood count"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-18",
+    "follow_up_instructions": "Review the planned laboratory results with the treating team.",
+    "case_severity": "low"
   }
 ]

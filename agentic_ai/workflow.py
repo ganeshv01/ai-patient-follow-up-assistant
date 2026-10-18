@@ -7,86 +7,52 @@ from agentic_ai.escalation_agent import escalation_agent
 
 
 def human_approval(state: PatientState) -> PatientState:
-    """
-    Human-in-the-loop approval for the AI-generated
-    patient reminder.
-
-    The prototype allows the reviewer to:
-    - approve
-    - reject
-    - edit
-    """
-
+    """Terminal-based human approval."""
     reminder = state.get("reminder", {})
     escalation = state.get("escalation", {})
 
     print("\n" + "=" * 60)
     print("HUMAN APPROVAL REQUIRED")
     print("=" * 60)
-
-    print("\nReminder Subject:")
-    print(reminder.get("subject"))
-
-    print("\nReminder Message:")
-    print(reminder.get("message"))
-
-    print("\nPriority:")
-    print(reminder.get("priority"))
+    print("\nReminder Subject:", reminder.get("subject"))
+    print("\nReminder Message:", reminder.get("message"))
+    print("\nPriority:", reminder.get("priority"))
 
     if escalation.get("escalate"):
-        print("\nEscalation:")
-        print(escalation.get("reason"))
-        print(
-            "Recommended team:",
-            escalation.get("recommended_team")
-        )
+        print("\nEscalation:", escalation.get("reason"))
+        print("Recommended team:", escalation.get("recommended_team"))
 
-    print("\nOptions:")
-    print("  [a] Approve")
-    print("  [r] Reject")
-
-    decision = input("\nEnter your decision: ").strip().lower()
+    decision = input("\nEnter [a]pprove or [r]eject: ").strip().lower()
 
     if decision == "a":
-        human_decision = "approved"
-        status = "approved"
-
-    elif decision == "r":
-        human_decision = "rejected"
-        status = "rejected"
-
-    else:
-        print("\nInvalid decision. Keeping approval pending.")
-        human_decision = "pending"
-        status = "awaiting_approval"
+        return {
+            **state,
+            "human_decision": "approved",
+            "status": "approved",
+        }
+    if decision == "r":
+        return {
+            **state,
+            "human_decision": "rejected",
+            "status": "rejected",
+        }
 
     return {
         **state,
-        "human_decision": human_decision,
-        "status": status,
+        "human_decision": "pending",
+        "status": "awaiting_approval",
     }
 
+
 def route_after_escalation(state: PatientState) -> str:
-    """
-    Decides whether escalation handling is required.
-    """
-
-    escalation = state.get("escalation", {})
-
-    if escalation.get("escalate") is True:
+    if state.get("escalation", {}).get("escalate") is True:
         return "escalation_review"
+    return "approval_step"
 
-    return "human_approval"
 
 def escalation_review(state: PatientState) -> PatientState:
-    """
-    Prepares an escalation for human review.
-    """
-
     escalation = state.get("escalation", {})
-
     print("\n--- ESCALATION REVIEW ---")
-    print("Escalation required:", escalation.get("escalate"))
     print("Severity:", escalation.get("severity"))
     print("Reason:", escalation.get("reason"))
     print("Recommended team:", escalation.get("recommended_team"))
@@ -96,36 +62,56 @@ def escalation_review(state: PatientState) -> PatientState:
         "status": "escalation_pending_review",
     }
 
-def build_workflow():
-    """
-    Build and compile the CareLoop LangGraph workflow.
-    """
 
+def approval_pending(state: PatientState) -> PatientState:
+    """Leave the reminder awaiting a decision from the UI."""
+    return {
+        **state,
+        "human_decision": "pending",
+        "status": "awaiting_approval",
+    }
+
+def route_after_summary(state: PatientState) -> str:
+    """Do not generate reminders if summary generation failed."""
+    if state.get("status") == "summary_failed":
+        return "stop"
+    return "continue"
+
+def build_workflow(require_human_approval: bool = True):
+    """Build the workflow for terminal or browser use."""
     graph = StateGraph(PatientState)
 
-    # Add agent nodes
     graph.add_node("summary_agent", summary_agent)
     graph.add_node("reminder_agent", reminder_agent)
     graph.add_node("escalation_agent", escalation_agent)
     graph.add_node("escalation_review", escalation_review)
 
-    # Add human approval node
-    graph.add_node("human_approval", human_approval)
+    if require_human_approval:
+        graph.add_node("approval_step", human_approval)
+    else:
+        graph.add_node("approval_step", approval_pending)
 
-    # Connect workflow
     graph.add_edge(START, "summary_agent")
-    graph.add_edge("summary_agent", "reminder_agent")
+    graph.add_conditional_edges(
+        "summary_agent",
+        route_after_summary,
+        {
+            "continue": "reminder_agent",
+            "stop": END,
+        },
+    )
     graph.add_edge("reminder_agent", "escalation_agent")
+
     graph.add_conditional_edges(
         "escalation_agent",
         route_after_escalation,
         {
             "escalation_review": "escalation_review",
-            "human_approval": "human_approval",
+            "approval_step": "approval_step",
         },
     )
 
-    graph.add_edge("escalation_review", "human_approval")
-    graph.add_edge("human_approval", END)
+    graph.add_edge("escalation_review", "approval_step")
+    graph.add_edge("approval_step", END)
 
     return graph.compile()
