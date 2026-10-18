@@ -20,7 +20,10 @@ def retrieve_patient_context(patient_id: str) -> list[str]:
         )
     )
 
-    client = chromadb.HttpClient(host="localhost", port=8000)
+    client = chromadb.HttpClient(
+        host=os.getenv("CHROMA_HOST", "localhost"),
+        port=int(os.getenv("CHROMA_PORT", "8000")),
+    )
 
     store = Chroma(
         client=client,
