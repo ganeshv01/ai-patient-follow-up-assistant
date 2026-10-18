@@ -1,0 +1,476 @@
+[
+  {
+    "patient_id": "P1001",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-10",
+    "diagnosis": "Essential hypertension",
+    "clinical_notes": "Blood pressure improved during admission. Discharged in stable condition.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Continue as listed on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Blood pressure review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-24",
+    "follow_up_instructions": "Arrange a blood pressure review with the treating clinician."
+  },
+  {
+    "patient_id": "P1002",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-12",
+    "diagnosis": "Community-acquired pneumonia",
+    "clinical_notes": "Respiratory symptoms improved and oxygen saturation remained stable before discharge.",
+    "medications": [
+      {
+        "name": "Amoxicillin",
+        "instructions": "Follow the prescribed course recorded on the medication chart."
+      }
+    ],
+    "required_tests": [
+      "Clinical respiratory assessment"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-22",
+    "follow_up_instructions": "Review recovery, breathing symptoms and medication tolerance."
+  },
+  {
+    "patient_id": "P1003",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-01",
+    "diagnosis": "Type 2 diabetes mellitus",
+    "clinical_notes": "Glucose readings were reviewed during admission. Discharge plan documented.",
+    "medications": [
+      {
+        "name": "Metformin",
+        "instructions": "Continue according to the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Fasting blood glucose",
+      "HbA1c as scheduled by the treating team"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-15",
+    "follow_up_instructions": "Review glucose records and the ongoing diabetes management plan."
+  },
+  {
+    "patient_id": "P1004",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-14",
+    "diagnosis": "Uncomplicated laparoscopic cholecystectomy",
+    "clinical_notes": "Postoperative recovery was uncomplicated. Oral intake and mobility were documented as satisfactory.",
+    "medications": [
+      {
+        "name": "Paracetamol",
+        "instructions": "Use only as directed on the discharge medication chart."
+      }
+    ],
+    "required_tests": [],
+    "required_tests_status": "none_required",
+    "follow_up_date": "2026-10-28",
+    "follow_up_instructions": "Review wound healing and recovery at the scheduled surgical appointment."
+  },
+  {
+    "patient_id": "P1005",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-16",
+    "diagnosis": "Acute exacerbation of asthma",
+    "clinical_notes": "Wheezing improved following treatment. Inhaler technique was reviewed before discharge.",
+    "medications": [
+      {
+        "name": "Salbutamol inhaler",
+        "instructions": "Use according to the prescribed inhaler instructions."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-30",
+    "follow_up_instructions": "Review symptom control and inhaler use."
+  },
+  {
+    "patient_id": "P1006",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-08",
+    "diagnosis": "Iron deficiency anaemia",
+    "clinical_notes": "Laboratory results were consistent with iron deficiency. Outpatient follow-up was documented.",
+    "medications": [
+      {
+        "name": "Ferrous sulfate",
+        "instructions": "Continue according to the prescribed medication chart."
+      }
+    ],
+    "required_tests": [
+      "Complete blood count"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-29",
+    "follow_up_instructions": "Review blood count results and response to treatment."
+  },
+  {
+    "patient_id": "P1007",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-11",
+    "diagnosis": "Gastroesophageal reflux disease",
+    "clinical_notes": "Symptoms improved with treatment. The patient was discharged with an outpatient review plan.",
+    "medications": [
+      {
+        "name": "Omeprazole",
+        "instructions": "Take according to the prescribed medication chart."
+      }
+    ],
+    "required_tests": [
+      "Symptom and medication review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-25",
+    "follow_up_instructions": "Assess symptom control and medication tolerance."
+  },
+  {
+    "patient_id": "P1008",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-13",
+    "diagnosis": "Urinary tract infection",
+    "clinical_notes": "Urinary symptoms improved during treatment. Discharge documentation includes a medication plan.",
+    "medications": [
+      {
+        "name": "Nitrofurantoin",
+        "instructions": "Follow the prescribed course and instructions on the medication chart."
+      }
+    ],
+    "required_tests": [
+      "Clinical symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-23",
+    "follow_up_instructions": "Review symptom resolution and any new concerns."
+  },
+  {
+    "patient_id": "P1009",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-12",
+    "diagnosis": "Heart failure",
+    "clinical_notes": "Congestion improved during admission. The discharge record calls for outpatient review, but no date is recorded.",
+    "medications": [
+      {
+        "name": "Furosemide",
+        "instructions": "Follow the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": null
+  },
+  {
+    "patient_id": "P1010",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-14",
+    "diagnosis": "Chronic obstructive pulmonary disease",
+    "clinical_notes": "Breathing returned to the documented baseline. Outpatient follow-up is mentioned without a confirmed date.",
+    "medications": [
+      {
+        "name": "Tiotropium",
+        "instructions": "Use according to the prescribed inhaler instructions."
+      }
+    ],
+    "required_tests": [
+      "Respiratory assessment"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment."
+  },
+  {
+    "patient_id": "P1011",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Migraine",
+    "clinical_notes": "Headache symptoms improved before discharge. The source record does not specify a follow-up appointment.",
+    "medications": [
+      {
+        "name": "Sumatriptan",
+        "instructions": "Use only according to the prescribed medication instructions."
+      }
+    ],
+    "required_tests": [],
+    "required_tests_status": "unknown",
+    "follow_up_date": null,
+    "follow_up_instructions": null
+  },
+  {
+    "patient_id": "P1012",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-09",
+    "diagnosis": "Chronic kidney disease",
+    "clinical_notes": "Renal function was reviewed during admission. Outpatient monitoring is noted, but the appointment date is absent.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Continue as documented on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": null,
+    "follow_up_instructions": "Confirm the timing of laboratory monitoring with the treating service."
+  },
+  {
+    "patient_id": "P1013",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-16",
+    "diagnosis": "Cellulitis of the lower limb",
+    "clinical_notes": "Local inflammation improved during admission. Follow-up instructions are incomplete in the source record.",
+    "medications": [
+      {
+        "name": "Cephalexin",
+        "instructions": "Follow the prescribed course documented on the medication chart."
+      }
+    ],
+    "required_tests": [
+      "Clinical review of affected area"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-27",
+    "follow_up_instructions": null
+  },
+  {
+    "patient_id": "P1014",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-25",
+    "diagnosis": "Type 2 diabetes mellitus",
+    "clinical_notes": "Discharged with a plan for review of glucose control and ongoing medication management.",
+    "medications": [
+      {
+        "name": "Metformin",
+        "instructions": "Continue according to the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Fasting blood glucose"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-05",
+    "follow_up_instructions": "Review glucose records and the treatment plan."
+  },
+  {
+    "patient_id": "P1015",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-28",
+    "diagnosis": "Essential hypertension",
+    "clinical_notes": "Blood pressure management was reviewed. Outpatient monitoring was requested.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Continue according to the prescribed medication chart."
+      }
+    ],
+    "required_tests": [
+      "Blood pressure review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-08",
+    "follow_up_instructions": "Review blood pressure readings and medication tolerance."
+  },
+  {
+    "patient_id": "P1016",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-02",
+    "diagnosis": "Community-acquired pneumonia",
+    "clinical_notes": "Symptoms improved and discharge was completed with a respiratory follow-up plan.",
+    "medications": [
+      {
+        "name": "Amoxicillin",
+        "instructions": "Follow the prescribed course recorded on the medication chart."
+      }
+    ],
+    "required_tests": [
+      "Respiratory assessment"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-12",
+    "follow_up_instructions": "Assess recovery and any persistent respiratory symptoms."
+  },
+  {
+    "patient_id": "P1017",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-09-30",
+    "diagnosis": "Iron deficiency anaemia",
+    "clinical_notes": "Discharge plan includes monitoring of anaemia and review of laboratory results.",
+    "medications": [
+      {
+        "name": "Ferrous sulfate",
+        "instructions": "Continue according to the prescribed medication chart."
+      }
+    ],
+    "required_tests": [
+      "Complete blood count"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-10",
+    "follow_up_instructions": "Review laboratory results and ongoing management."
+  },
+  {
+    "patient_id": "P1018",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-04",
+    "diagnosis": "Heart failure",
+    "clinical_notes": "Clinical status improved during admission. Follow-up and laboratory monitoring were requested.",
+    "medications": [
+      {
+        "name": "Furosemide",
+        "instructions": "Follow the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-14",
+    "follow_up_instructions": "Review symptoms, laboratory results and the documented management plan."
+  },
+  {
+    "patient_id": "P1019",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-06",
+    "diagnosis": "Atrial fibrillation",
+    "clinical_notes": "Heart rhythm and rate were assessed during admission. The discharge record includes an outpatient review plan.",
+    "medications": [
+      {
+        "name": "Apixaban",
+        "instructions": "Follow the prescribed medication chart and documented precautions."
+      }
+    ],
+    "required_tests": [
+      "Cardiology review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-27",
+    "follow_up_instructions": "Review rhythm management and medication tolerance."
+  },
+  {
+    "patient_id": "P1020",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-07",
+    "diagnosis": "Community-acquired pneumonia",
+    "clinical_notes": "Clinical improvement was documented. The patient was discharged with a plan for symptom reassessment.",
+    "medications": [
+      {
+        "name": "Amoxicillin",
+        "instructions": "Follow the prescribed course recorded on the medication chart."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-20",
+    "follow_up_instructions": "Assess recovery and confirm whether symptoms have resolved."
+  },
+  {
+    "patient_id": "P1021",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-10",
+    "diagnosis": "Postoperative recovery following hernia repair",
+    "clinical_notes": "Recovery was documented as stable. Wound care and outpatient review were included in the discharge plan.",
+    "medications": [
+      {
+        "name": "Paracetamol",
+        "instructions": "Use only as directed on the discharge medication chart."
+      }
+    ],
+    "required_tests": [],
+    "required_tests_status": "none_required",
+    "follow_up_date": "2026-10-24",
+    "follow_up_instructions": "Review wound healing and postoperative recovery."
+  },
+  {
+    "patient_id": "P1022",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-11",
+    "diagnosis": "Hypothyroidism",
+    "clinical_notes": "Thyroid replacement therapy was documented. Outpatient review is required to assess ongoing management.",
+    "medications": [
+      {
+        "name": "Levothyroxine",
+        "instructions": "Take according to the prescribed medication chart."
+      }
+    ],
+    "required_tests": [
+      "Thyroid function tests"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-11-08",
+    "follow_up_instructions": "Review thyroid function results and the ongoing treatment plan."
+  },
+  {
+    "patient_id": "P1023",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-12",
+    "diagnosis": "Acute kidney injury",
+    "clinical_notes": "Renal function improved during admission. Repeat laboratory monitoring is included in the discharge plan.",
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "instructions": "Continue only as listed on the discharge medication chart."
+      }
+    ],
+    "required_tests": [
+      "Renal function",
+      "Electrolytes"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-20",
+    "follow_up_instructions": "Review laboratory results promptly and follow the documented care plan."
+  },
+  {
+    "patient_id": "P1024",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-13",
+    "diagnosis": "Type 2 diabetes mellitus with hyperglycaemia",
+    "clinical_notes": "Glucose management was reviewed during admission. The discharge record requests early outpatient reassessment.",
+    "medications": [
+      {
+        "name": "Metformin",
+        "instructions": "Follow the prescribed medication chart."
+      }
+    ],
+    "required_tests": [
+      "Fasting blood glucose"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-21",
+    "follow_up_instructions": "Review glucose readings and the documented diabetes management plan."
+  },
+  {
+    "patient_id": "P1025",
+    "document_type": "discharge_summary",
+    "discharge_date": "2026-10-15",
+    "diagnosis": "Asthma",
+    "clinical_notes": "Symptoms improved before discharge. The record notes a need to confirm the outpatient review arrangements.",
+    "medications": [
+      {
+        "name": "Salbutamol inhaler",
+        "instructions": "Use according to the prescribed inhaler instructions."
+      }
+    ],
+    "required_tests": [
+      "Respiratory symptom review"
+    ],
+    "required_tests_status": "specified",
+    "follow_up_date": "2026-10-22",
+    "follow_up_instructions": "Confirm the appointment and review symptom control."
+  }
+]

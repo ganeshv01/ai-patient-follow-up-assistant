@@ -5,9 +5,7 @@ def summary_agent(state: PatientState) -> PatientState:
     """
     Creates a structured patient follow-up summary.
 
-    Currently uses deterministic logic so the workflow
-    can be developed while Bedrock account verification
-    is pending.
+    Currently uses deterministic logic so the workflow can be developed.
 
     Later, this function will use the LLM with RAG context.
     """
@@ -20,11 +18,9 @@ def summary_agent(state: PatientState) -> PatientState:
         "Not specified"
     )
 
-    follow_up_date = patient_info.get(
-        "follow_up_date",
-        "Not specified"
-    )
-
+    follow_up_date = patient_info.get("follow_up_date")
+    if not follow_up_date:
+        follow_up_date = "Not specified"
     previous_visit_outcome = patient_info.get(
         "previous_visit_outcome",
         "Not specified"

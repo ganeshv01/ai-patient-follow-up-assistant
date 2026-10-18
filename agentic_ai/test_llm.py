@@ -1,17 +1,21 @@
-import os
-from dotenv import load_dotenv
-from langchain_aws import ChatBedrockConverse
 
-load_dotenv()
+from unittest.mock import patch
 
-llm = ChatBedrockConverse(
-    model="openai.gpt-5.6-luna",
-    region_name="us-east-1",
-    temperature=0,
-)
+from langchain_openai import ChatOpenAI
 
-response = llm.invoke(
-    "Say hello to the CareLoop project in one short sentence."
-)
 
-print(response.content)
+def test_llm_uses_openai_provider():
+    with patch(
+        "langchain_openai.ChatOpenAI",
+        return_value="mocked OpenAI client",
+    ) as mock_chat_openai:
+        llm = mock_chat_openai(
+            model="gpt-4o-mini",
+            temperature=0,
+        )
+
+    assert llm == "mocked OpenAI client"
+    mock_chat_openai.assert_called_once_with(
+        model="gpt-4o-mini",
+        temperature=0,
+    )

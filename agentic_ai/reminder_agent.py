@@ -6,8 +6,6 @@ def reminder_agent(state: PatientState) -> PatientState:
     Creates a structured follow-up reminder from the
     Summary Agent output.
 
-    Currently deterministic so development can continue
-    while Bedrock account verification is pending.
     """
 
     patient_info = state.get("patient_information", {})
@@ -20,10 +18,23 @@ def reminder_agent(state: PatientState) -> PatientState:
         "your medical condition"
     )
 
-    follow_up_date = summary.get(
-        "follow_up_date",
-        "your scheduled date"
-    )
+    follow_up_date = summary.get("follow_up_date")
+
+    if not follow_up_date or follow_up_date == "Not specified":
+        return {
+            **state,
+            "reminder": {
+                "subject": "Follow-up clarification required",
+                "message": (
+                    "A follow-up reminder cannot be prepared because "
+                    "the discharge summary does not specify a follow-up date. "
+                    "Please have the care team review the record."
+                ),
+                "priority": "review_required",
+                "requires_approval": True,
+            },
+            "status": "awaiting_clarification",
+        }
 
     required_tests = summary.get(
         "required_tests",

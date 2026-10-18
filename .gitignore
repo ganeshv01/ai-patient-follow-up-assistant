@@ -4,3 +4,10 @@ __pycache__/
 .env
 .DS_Store
 .aws/
+
+# Local vector database
+data/processed/chroma/
+
+# Local backups and temporary search output
+*.bak
+bedrock_references.txt

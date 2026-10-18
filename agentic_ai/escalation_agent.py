@@ -45,11 +45,32 @@ def escalation_agent(state: PatientState) -> PatientState:
     reason = ""
     recommended_team = []
 
+    # Missing or uncertain source data requires human review.
+    if severity not in {"high", "medium", "normal"}:
+        escalate = True
+        escalation_severity = "REVIEW_REQUIRED"
+        reason = (
+            "Case severity is unknown or unsupported. "
+            "Human review is required; no risk level will be inferred."
+        )
+        recommended_team = ["care_team"]
+
+    elif not follow_up_date or follow_up_date in {
+        "unknown", "Not specified"
+    }:
+        escalate = True
+        escalation_severity = "REVIEW_REQUIRED"
+        reason = (
+            "Follow-up date is missing from the record. "
+            "Human review is required to clarify follow-up timing."
+        )
+        recommended_team = ["care_team"]
+
     # --------------------------------
     # Patient has responded
     # --------------------------------
 
-    if patient_responded:
+    elif patient_responded:
 
         reason = (
             "Patient has responded to the follow-up "
