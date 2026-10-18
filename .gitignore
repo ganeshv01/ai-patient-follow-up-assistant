@@ -12,3 +12,6 @@ data/processed/chroma/
 *.bak
 bedrock_references.txt
 data/discharge_summaries/*.pdf
+
+# Local ChromaDB backup (contains document data)
+data/processed/chroma_export.pkl
