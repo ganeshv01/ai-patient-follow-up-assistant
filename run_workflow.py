@@ -119,7 +119,7 @@ def load_patient_state(patient_id: str) -> PatientState:
                 else "Not specified"
             ),
             "important_concerns": [],
-            "case_severity": "unknown",
+            "case_severity": summary.case_severity,
         },
         "retrieved_context": retrieved_context,
         "patient_summary": {},

@@ -16,7 +16,8 @@
     ],
     "required_tests_status": "specified",
     "follow_up_date": "2026-10-24",
-    "follow_up_instructions": "Arrange a blood pressure review with the treating clinician."
+    "follow_up_instructions": "Arrange a blood pressure review with the treating clinician.",
+    "case_severity": "unknown"
   },
   {
     "patient_id": "P1002",
@@ -35,7 +36,8 @@
     ],
     "required_tests_status": "specified",
     "follow_up_date": "2026-10-22",
-    "follow_up_instructions": "Review recovery, breathing symptoms and medication tolerance."
+    "follow_up_instructions": "Review recovery, breathing symptoms and medication tolerance.",
+    "case_severity": "medium"
   },
   {
     "patient_id": "P1003",
@@ -55,7 +57,8 @@
     ],
     "required_tests_status": "specified",
     "follow_up_date": "2026-10-15",
-    "follow_up_instructions": "Review glucose records and the ongoing diabetes management plan."
+    "follow_up_instructions": "Review glucose records and the ongoing diabetes management plan.",
+    "case_severity": "high"
   },
   {
     "patient_id": "P1004",
@@ -72,7 +75,8 @@
     "required_tests": [],
     "required_tests_status": "none_required",
     "follow_up_date": "2026-10-28",
-    "follow_up_instructions": "Review wound healing and recovery at the scheduled surgical appointment."
+    "follow_up_instructions": "Review wound healing and recovery at the scheduled surgical appointment.",
+    "case_severity": "unknown"
   },
   {
     "patient_id": "P1005",
@@ -91,7 +95,8 @@
     ],
     "required_tests_status": "specified",
     "follow_up_date": "2026-10-30",
-    "follow_up_instructions": "Review symptom control and inhaler use."
+    "follow_up_instructions": "Review symptom control and inhaler use.",
+    "case_severity": "unknown"
   },
   {
     "patient_id": "P1006",
@@ -110,7 +115,8 @@
     ],
     "required_tests_status": "specified",
     "follow_up_date": "2026-10-29",
-    "follow_up_instructions": "Review blood count results and response to treatment."
+    "follow_up_instructions": "Review blood count results and response to treatment.",
+    "case_severity": "unknown"
   },
   {
     "patient_id": "P1007",
@@ -129,7 +135,8 @@
     ],
     "required_tests_status": "specified",
     "follow_up_date": "2026-10-25",
-    "follow_up_instructions": "Assess symptom control and medication tolerance."
+    "follow_up_instructions": "Assess symptom control and medication tolerance.",
+    "case_severity": "unknown"
   },
   {
     "patient_id": "P1008",
@@ -148,7 +155,8 @@
     ],
     "required_tests_status": "specified",
     "follow_up_date": "2026-10-23",
-    "follow_up_instructions": "Review symptom resolution and any new concerns."
+    "follow_up_instructions": "Review symptom resolution and any new concerns.",
+    "case_severity": "unknown"
   },
   {
     "patient_id": "P1009",
@@ -168,7 +176,8 @@
     ],
     "required_tests_status": "specified",
     "follow_up_date": null,
-    "follow_up_instructions": null
+    "follow_up_instructions": null,
+    "case_severity": "unknown"
   },
   {
     "patient_id": "P1010",
@@ -187,7 +196,8 @@
     ],
     "required_tests_status": "specified",
     "follow_up_date": null,
-    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment."
+    "follow_up_instructions": "Contact the discharging service to confirm the follow-up appointment.",
+    "case_severity": "unknown"
   },
   {
     "patient_id": "P1011",
@@ -204,7 +214,8 @@
     "required_tests": [],
     "required_tests_status": "unknown",
     "follow_up_date": null,
-    "follow_up_instructions": null
+    "follow_up_instructions": null,
+    "case_severity": "unknown"
   },
   {
     "patient_id": "P1012",
@@ -224,7 +235,8 @@
     ],
     "required_tests_status": "specified",
     "follow_up_date": null,
-    "follow_up_instructions": "Confirm the timing of laboratory monitoring with the treating service."
+    "follow_up_instructions": "Confirm the timing of laboratory monitoring with the treating service.",
+    "case_severity": "unknown"
   },
   {
     "patient_id": "P1013",
@@ -243,7 +255,8 @@
     ],
     "required_tests_status": "specified",
     "follow_up_date": "2026-10-27",
-    "follow_up_instructions": null
+    "follow_up_instructions": null,
+    "case_severity": "unknown"
   },
   {
     "patient_id": "P1014",
@@ -262,7 +275,8 @@
     ],
     "required_tests_status": "specified",
     "follow_up_date": "2026-10-05",
-    "follow_up_instructions": "Review glucose records and the treatment plan."
+    "follow_up_instructions": "Review glucose records and the treatment plan.",
+    "case_severity": "unknown"
   },
   {
     "patient_id": "P1015",
@@ -281,7 +295,8 @@
     ],
     "required_tests_status": "specified",
     "follow_up_date": "2026-10-08",
-    "follow_up_instructions": "Review blood pressure readings and medication tolerance."
+    "follow_up_instructions": "Review blood pressure readings and medication tolerance.",
+    "case_severity": "unknown"
   },
   {
     "patient_id": "P1016",
@@ -300,7 +315,8 @@
     ],
     "required_tests_status": "specified",
     "follow_up_date": "2026-10-12",
-    "follow_up_instructions": "Assess recovery and any persistent respiratory symptoms."
+    "follow_up_instructions": "Assess recovery and any persistent respiratory symptoms.",
+    "case_severity": "unknown"
   },
   {
     "patient_id": "P1017",
@@ -319,7 +335,8 @@
     ],
     "required_tests_status": "specified",
     "follow_up_date": "2026-10-10",
-    "follow_up_instructions": "Review laboratory results and ongoing management."
+    "follow_up_instructions": "Review laboratory results and ongoing management.",
+    "case_severity": "unknown"
   },
   {
     "patient_id": "P1018",
@@ -339,7 +356,8 @@
     ],
     "required_tests_status": "specified",
     "follow_up_date": "2026-10-14",
-    "follow_up_instructions": "Review symptoms, laboratory results and the documented management plan."
+    "follow_up_instructions": "Review symptoms, laboratory results and the documented management plan.",
+    "case_severity": "unknown"
   },
   {
     "patient_id": "P1019",
@@ -358,7 +376,8 @@
     ],
     "required_tests_status": "specified",
     "follow_up_date": "2026-10-27",
-    "follow_up_instructions": "Review rhythm management and medication tolerance."
+    "follow_up_instructions": "Review rhythm management and medication tolerance.",
+    "case_severity": "unknown"
   },
   {
     "patient_id": "P1020",
@@ -377,7 +396,8 @@
     ],
     "required_tests_status": "specified",
     "follow_up_date": "2026-10-20",
-    "follow_up_instructions": "Assess recovery and confirm whether symptoms have resolved."
+    "follow_up_instructions": "Assess recovery and confirm whether symptoms have resolved.",
+    "case_severity": "unknown"
   },
   {
     "patient_id": "P1021",
@@ -394,7 +414,8 @@
     "required_tests": [],
     "required_tests_status": "none_required",
     "follow_up_date": "2026-10-24",
-    "follow_up_instructions": "Review wound healing and postoperative recovery."
+    "follow_up_instructions": "Review wound healing and postoperative recovery.",
+    "case_severity": "unknown"
   },
   {
     "patient_id": "P1022",
@@ -413,7 +434,8 @@
     ],
     "required_tests_status": "specified",
     "follow_up_date": "2026-11-08",
-    "follow_up_instructions": "Review thyroid function results and the ongoing treatment plan."
+    "follow_up_instructions": "Review thyroid function results and the ongoing treatment plan.",
+    "case_severity": "unknown"
   },
   {
     "patient_id": "P1023",
@@ -433,7 +455,8 @@
     ],
     "required_tests_status": "specified",
     "follow_up_date": "2026-10-20",
-    "follow_up_instructions": "Review laboratory results promptly and follow the documented care plan."
+    "follow_up_instructions": "Review laboratory results promptly and follow the documented care plan.",
+    "case_severity": "unknown"
   },
   {
     "patient_id": "P1024",
@@ -452,7 +475,8 @@
     ],
     "required_tests_status": "specified",
     "follow_up_date": "2026-10-21",
-    "follow_up_instructions": "Review glucose readings and the documented diabetes management plan."
+    "follow_up_instructions": "Review glucose readings and the documented diabetes management plan.",
+    "case_severity": "unknown"
   },
   {
     "patient_id": "P1025",
@@ -471,6 +495,7 @@
     ],
     "required_tests_status": "specified",
     "follow_up_date": "2026-10-22",
-    "follow_up_instructions": "Confirm the appointment and review symptom control."
+    "follow_up_instructions": "Confirm the appointment and review symptom control.",
+    "case_severity": "unknown"
   }
 ]

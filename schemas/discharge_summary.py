@@ -33,6 +33,8 @@ class DischargeSummary(BaseModel):
     required_tests_status: Literal["specified", "none_required", "unknown"] = "unknown"
     follow_up_date: date | None = None
     follow_up_instructions: str | None = None
+    # Synthetic workflow metadata; not a clinical risk assessment.
+    case_severity: Literal["low", "medium", "high", "unknown"] = "unknown"
 
     @field_validator("patient_id")
     @classmethod

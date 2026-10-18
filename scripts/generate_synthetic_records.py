@@ -14,8 +14,9 @@ OUTPUT = Path("data/sample_records/discharge_summaries.json")
 TODAY = date(2026, 10, 18)
 
 
+
 def record(pid, discharged, diagnosis, notes, medications, tests,
-           status, follow_up, instructions):
+           status, follow_up, instructions, case_severity="unknown"):
     return {
         "patient_id": pid,
         "document_type": "discharge_summary",
@@ -30,6 +31,7 @@ def record(pid, discharged, diagnosis, notes, medications, tests,
         "required_tests_status": status,
         "follow_up_date": follow_up,
         "follow_up_instructions": instructions,
+        "case_severity": case_severity,
     }
 
 
@@ -44,13 +46,13 @@ records = [
            "Respiratory symptoms improved and oxygen saturation remained stable before discharge.",
            [("Amoxicillin", "Follow the prescribed course recorded on the medication chart.")],
            ["Clinical respiratory assessment"], "specified", "2026-10-22",
-           "Review recovery, breathing symptoms and medication tolerance."),
+           "Review recovery, breathing symptoms and medication tolerance.", case_severity="medium"),
     record("P1003", "2026-10-01", "Type 2 diabetes mellitus",
            "Glucose readings were reviewed during admission. Discharge plan documented.",
            [("Metformin", "Continue according to the discharge medication chart.")],
            ["Fasting blood glucose", "HbA1c as scheduled by the treating team"],
            "specified", "2026-10-15",
-           "Review glucose records and the ongoing diabetes management plan."),
+           "Review glucose records and the ongoing diabetes management plan.", case_severity="high"),
     record("P1004", "2026-10-14", "Uncomplicated laparoscopic cholecystectomy",
            "Postoperative recovery was uncomplicated. Oral intake and mobility were documented as satisfactory.",
            [("Paracetamol", "Use only as directed on the discharge medication chart.")],

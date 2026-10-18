@@ -1,57 +1,51 @@
+
 from agentic_ai.state import PatientState
+from datetime import date
 
-
-def escalation_agent(state: PatientState) -> PatientState:
-    """
-    Evaluates whether a patient requires escalation.
-
-    Decision is based on:
-    - case severity
-    - follow-up status
-    - number of contact attempts
-    - response status
-    """
-
+def escalation_agent(
+    state: PatientState,
+    reference_date: date | None = None,
+) -> PatientState:
+    """Evaluate follow-up escalation using explicit workflow metadata."""
+    if reference_date is None:
+        reference_date = date.today()
     summary = state.get("patient_summary", {})
     contact_history = state.get("contact_history", [])
 
-    severity = summary.get(
-        "case_severity",
-        "normal"
-    ).lower()
+    severity = str(summary.get("case_severity", "unknown")).lower()
+    follow_up_date = summary.get("follow_up_date", "unknown")
 
-    follow_up_date = summary.get(
-        "follow_up_date",
-        "unknown"
-    )
-
-    # Count contact attempts.
     attempts = len(contact_history)
-
-    # Determine whether the patient has responded.
     responses = [
-        contact.get("status", "").lower()
+        str(contact.get("status", "")).lower()
         for contact in contact_history
     ]
-
     patient_responded = any(
-        status in ["responded", "replied", "confirmed"]
+        status in {"responded", "replied", "confirmed"}
         for status in responses
     )
 
-    # Default decision.
     escalate = False
     escalation_severity = severity.upper()
     reason = ""
     recommended_team = []
 
-    # Missing or uncertain source data requires human review.
-    if severity not in {"high", "medium", "normal"}:
+    # Missing or unsupported metadata requires human review.
+    if severity not in {"low", "medium", "high", "unknown"}:
         escalate = True
         escalation_severity = "REVIEW_REQUIRED"
         reason = (
-            "Case severity is unknown or unsupported. "
+            "Case severity metadata is unsupported. "
             "Human review is required; no risk level will be inferred."
+        )
+        recommended_team = ["care_team"]
+
+    elif severity == "unknown":
+        escalate = True
+        escalation_severity = "REVIEW_REQUIRED"
+        reason = (
+            "Case severity is unknown. Human review is required; "
+            "no risk level will be inferred."
         )
         recommended_team = ["care_team"]
 
@@ -66,85 +60,53 @@ def escalation_agent(state: PatientState) -> PatientState:
         )
         recommended_team = ["care_team"]
 
-    # --------------------------------
-    # Patient has responded
-    # --------------------------------
+    elif date.fromisoformat(follow_up_date) < reference_date:
+        escalate = True
+        escalation_severity = "REVIEW_REQUIRED"
+        reason = (
+            f"Follow-up date {follow_up_date} is overdue relative to "
+            f"{reference_date.isoformat()}. Human review is required."
+        )
+        recommended_team = ["care_team"]
 
     elif patient_responded:
-
         reason = (
-            "Patient has responded to the follow-up "
-            "communication. No escalation is required."
+            "Patient has responded to the follow-up communication. "
+            "No contact-attempt escalation is required."
         )
 
-    # --------------------------------
-    # High-risk patient
-    # --------------------------------
-
-    elif severity == "high" and attempts >= 1:
-
+    elif severity == "high":
+        # High severity requires review even before failed attempts.
         escalate = True
         escalation_severity = "HIGH"
-
         reason = (
-            f"High-risk patient has not responded after "
-            f"{attempts} contact attempt(s). Follow-up date: "
-            f"{follow_up_date}."
+            "This synthetic case is explicitly labeled high severity "
+            "in workflow metadata. Human review is required."
         )
-
-        recommended_team = [
-            "doctor",
-            "nurse",
-            "secretary",
-        ]
-
-    # --------------------------------
-    # Medium-risk patient
-    # --------------------------------
+        recommended_team = ["doctor", "nurse", "care_team"]
 
     elif severity == "medium" and attempts >= 2:
-
         escalate = True
         escalation_severity = "MEDIUM"
-
         reason = (
-            f"Medium-risk patient has not responded after "
+            f"Medium-severity case has no recorded response after "
             f"{attempts} contact attempts."
         )
+        recommended_team = ["doctor", "secretary"]
 
-        recommended_team = [
-            "doctor",
-            "secretary",
-        ]
-
-    # --------------------------------
-    # Normal-risk patient
-    # --------------------------------
-
-    elif severity == "normal" and attempts >= 2:
-
+    elif severity == "low" and attempts >= 2:
         escalate = True
-        escalation_severity = "NORMAL"
-
+        escalation_severity = "LOW"
         reason = (
-            f"Patient has not responded after "
-            f"{attempts} contact attempts."
+            f"Case has no recorded response after {attempts} "
+            "contact attempts. Human review is required."
         )
-
-        recommended_team = [
-            "secretary",
-        ]
-
-    # --------------------------------
-    # No escalation yet
-    # --------------------------------
+        recommended_team = ["secretary"]
 
     else:
-
         reason = (
-            f"Patient has not responded, but escalation "
-            f"criteria have not yet been met. "
-            f"Attempts: {attempts}, risk: {severity}."
+            "Escalation criteria have not been met. "
+            f"Attempts: {attempts}; severity metadata: {severity}."
         )
 
     escalation = {
